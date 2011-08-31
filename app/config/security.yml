@@ -15,7 +15,8 @@ security:
     firewalls:
         dev:
             pattern:  ^/(_(profiler|wdt)|css|images|js)/
-            security: false
+            security: true
+            anonymous: true
 
         login:
             pattern:  ^/demo/secured/login$
@@ -32,6 +33,11 @@ security:
             #anonymous: ~
             #http_basic:
             #    realm: "Secured Demo Area"
+
+        main:
+            pattern: .*
+            security: true
+            anonymous: true
 
     access_control:
         #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
