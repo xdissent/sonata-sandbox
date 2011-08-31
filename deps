@@ -85,3 +85,11 @@
 [SonataPageBundle]
     git=http://github.com/sonata-project/SonataPageBundle.git
     target=/bundles/Sonata/PageBundle
+
+[FOSUserBundle]
+    git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=/bundles/FOS/UserBundle
+
+[SonataUserBundle]
+    git=http://github.com/sonata-project/SonataUserBundle.git
+    target=/bundles/Sonata/UserBundle
