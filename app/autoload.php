@@ -15,7 +15,8 @@ $loader->registerNamespaces(array(
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
     'Sonata'           => __DIR__.'/../vendor/bundles',
-    'Knp'              => __DIR__.'/../vendor/bundles',
+    'Knp\\Bundle'      => __DIR__.'/../vendor/bundles',
+    'Knp\\Menu'        => __DIR__.'/../vendor/knp-menu/src',
     'FOS'              => __DIR__.'/../vendor/bundles',
     'Application'      => __DIR__,
 ));
